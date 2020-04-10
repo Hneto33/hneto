@@ -2538,7 +2538,6 @@ h1, h2, h3, h4, h5,
   color: #777;
   padding: 40px;
   border-radius: 7px;
-  margin-bottom: 20px;
 }
 
 .package h3 {
@@ -2561,7 +2560,7 @@ h1, h2, h3, h4, h5,
     height: 60px;
   }
   .package .package__description {
-    text-align: justify;
+    height: 250px;
   }
 }
 

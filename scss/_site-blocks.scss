@@ -1389,7 +1389,6 @@
   color: #777;
   padding: 40px;
   border-radius: 7px;
-  margin-bottom: 20px;
   h3 {
     font-size: 18px;
     margin-bottom: 30px;
@@ -1410,7 +1409,7 @@
     }
 
     .package__description {
-      text-align: justify;
+      height: 250px;
     }
   }
 }
