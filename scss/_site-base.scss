@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5,
 	background: $dark;
 	// background: $teal;
 	@include media-breakpoint-up(md) {
-		padding: 8em 0;	
+		padding: 4em 0;	
 	}
 	.border-top {
 		border-top: 1px solid rgba(255,255,255,.1)!important;

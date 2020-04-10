@@ -19,7 +19,13 @@
       min-height: 777px;
     }
   }
-
+  &, .site-section-cover__intro-text {
+    box-shadow: 0px 0px 5px 2px grey;
+    background: rgba(128, 128, 128, 0.4);
+    @include media-breakpoint-down(md) { 
+      padding: 0 20px;
+    }
+  }
   &.overlay {
     position: relative;
     &:before {
@@ -33,6 +39,10 @@
       background-size: 100%;
       background-repeat: no-repeat;
       z-index: 1;
+      @include media-breakpoint-down(md) {
+        background-position: -200px;
+        background-size: cover;
+      }
     }
   }
   &.inner-page {
@@ -1351,6 +1361,10 @@
       background-color: $teal;
     }
   }
+}
+
+.text-blue {
+ color: #08c; 
 }
 
 .text-red {
