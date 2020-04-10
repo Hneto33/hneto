@@ -1082,6 +1082,10 @@ h1, h2, h3, h4, h5,
 }
 
 /* Blocks */
+.container {
+  padding: 0 20px;
+}
+
 .site-section-cover {
   position: relative;
   background-size: cover;
@@ -1118,6 +1122,7 @@ h1, h2, h3, h4, h5,
 
 @media (max-width: 991.98px) {
   .site-section-cover, .site-section-cover .site-section-cover__intro-text {
+    margin-top: 40px;
     padding: 0 20px;
   }
 }
@@ -1183,6 +1188,10 @@ h1, h2, h3, h4, h5,
   .site-section {
     padding: 3rem 0;
   }
+}
+
+.bg-consultoria {
+  background-color: #c34e91;
 }
 
 .block-heading-1 span {
@@ -2544,6 +2553,15 @@ h1, h2, h3, h4, h5,
 
 .package .img-wrap img {
   width: 80px;
+}
+
+@media (min-width: 992px) {
+  .package .package__title {
+    height: 60px;
+  }
+  .package .package__description {
+    height: 250px;
+  }
 }
 
 .testimonial-3-wrap {
