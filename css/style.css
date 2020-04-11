@@ -1888,7 +1888,7 @@ h1, h2, h3, h4, h5,
 
 .post-entry-1 .post-entry-1-contents {
   background: #fff;
-  padding: 20px;
+  padding: 50px;
 }
 
 .post-entry-1 .post-entry-1-contents h2 {
@@ -1909,7 +1909,7 @@ h1, h2, h3, h4, h5,
 }
 
 .post-entry-1.person-1 img {
-  width: 90px;
+  width: 180px;
   border-radius: 50%;
   margin: 0 auto -45px auto;
   border: 4px solid #fff;
