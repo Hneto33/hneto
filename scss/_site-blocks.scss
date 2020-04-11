@@ -724,6 +724,35 @@
   background-color: $red !important;
 }
 
+.quotation{
+  font-size: 24px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  line-height: 1.4;
+}
+
+.quotation:before {
+  content: open-quote;
+  display: inline;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 30px;
+  color: #ccc;
+  font-size: 4em;
+}
+
+.quotation::after {
+  content: close-quote;
+  display: inline;
+  line-height: 0;
+  left: 10px;
+  position: relative;
+  top: 35px;
+  color: #ccc;
+  font-size: 4em;
+}
+
 .post-entry-1 {
   .meta {
     color: #ccc;
