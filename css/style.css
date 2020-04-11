@@ -1122,8 +1122,7 @@ h1, h2, h3, h4, h5,
 
 @media (max-width: 991.98px) {
   .site-section-cover, .site-section-cover .site-section-cover__intro-text {
-    margin-top: 40px;
-    padding: 0 20px;
+    padding: 40px 20px 0 20px;
   }
 }
 
