@@ -731,6 +731,21 @@
   line-height: 1.4;
 }
 
+.whatsapp-fab-button {
+  bottom: 3em;
+  right: 3em;
+  z-index: 9;
+  position: fixed;
+
+  .whatsapp-fab-button__image {
+    width: 50px;
+  }
+
+  &:active {
+    transform: translateY(4px);
+  }
+}
+
 .quotation:before {
   content: open-quote;
   display: inline;
